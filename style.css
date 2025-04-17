@@ -1,0 +1,196 @@
+/* resert margin,padding */
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+.pink {
+    border: 1px solid pink;
+}
+
+.BelyYT {
+    height: 100%;
+    background: url('pink.jpg') center center no-repeat;
+    width: 1500px;
+    padding-top: 10px;
+    background-color: rgb(246, 254, 157);
+}
+
+.about-sign-in {
+    height: 80px;
+    width: 100%;
+    font-weight: bold;
+}
+
+a.about {
+    font-weight: bold;
+}
+
+
+.about,
+.sign-in {
+    text-decoration: none;
+    float: right;
+    text-align: right;
+    margin-top: 20px;
+    text-transform: uppercase;
+    border-radius: 80px;
+    border: 1px solid rgb(188, 35, 145);
+    padding: 7px 15px;
+    font-weight: bold;
+    color: rgb(144, 37, 176);
+}
+
+a.signin {
+    text-decoration: none;
+    padding: 7px 15px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 80px;
+    border: 1px solid rgb(188, 35, 145);
+    font-weight: bold;
+    color: rgb(144, 37, 176);
+}
+
+.sign-in-button {
+    text-decoration: none;
+    padding: 7px 15px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 80px;
+    border: 1px solid rgb(188, 35, 145);
+    font-weight: bold;
+    color: rgb(144, 37, 176);
+
+}
+
+.homepage-container {
+    font-weight: bold;
+    display: flex;
+    justify-content: right;
+    /* Căn giữa theo chiều ngang */
+    align-items: center;
+    /* Căn giữa theo chiều dọc */
+    height: 100vh;
+    /* Chiều cao của phần tử cha */
+}
+
+/* Nút Đăng Nhập */
+.sign-in-button {
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background-color: #e74ab8;
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.sign-in-button:hover {
+    background-color: #555;
+}
+
+.text {
+    text-align: center;
+    font-style: italic;
+
+    span {
+        color: rgb(52, 21, 21);
+        font-weight: bold;
+    }
+}
+
+.logo {
+    background: url('Bely3.jpg') center center no-repeat;
+    background-size: 100;
+    margin-top: 30px;
+    height: 50%;
+}
+
+
+.left {
+    font-weight: bold;
+    color: rgb(197, 29, 85);
+}
+
+.right {
+    font-weight: bold;
+    color: rgb(197, 29, 85);
+}
+
+
+.center {
+    font-weight: bold;
+    color: rgb(197, 29, 85);
+}
+
+.btn-start-now {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.left,
+.right,
+.center {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+span {
+    display: block;
+    font-size: 20px;
+}
+
+img {
+    height: 30px;
+    width: 30px;
+}
+
+.bottom-left {
+    background-size: 10;
+    margin-top: 30px;
+    height: 50%;
+}
+
+.image-icon::before {
+    content: url('anh youtube.jpg');
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: auto;
+    z-index: 1000;
+    /* Đảm bảo ảnh nằm trên cùng */
+}
+
+.container {
+    position: fixed;
+    width: 300px;
+    height: 200px;
+    border: rgb(144, 37, 176);
+}
+
+.bottom-left {
+    position: fixed;
+    top: 1;
+    left: 0;
+    padding: 5px;
+    height: 50%;
+    width: 100%;
+}
